@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #f0f9ff;
+    font-family: 'Arial Rounded MT Bold', Arial;
+}
+
+#gameContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#gameCanvas {
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+}
+
+.ui-panel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    z-index: 2;
+}
+
+.hint-button {
+    background: #FF9800;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.target-sample {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 0 4px;
+}
+
+.timer-danger {
+    color: #ff4444;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas"></canvas>
+        <div class="ui-panel">
+            <div>Уровень: <span id="currentLevel">1</span></div>
+            <div>Время: <span id="timer">30</span>s</div>
+            <div>Собрано: <span class="target-sample"></span> 
+                <span id="counter">0</span>/<span id="targetCount">5</span>
+            </div>
+            <button class="hint-button" onclick="showAd()">Подсказка</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
