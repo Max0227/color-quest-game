@@ -1,7 +1,4 @@
-# Color Quest
-
-```
-color-quest/
+color-quest-game/
 ├── public/
 │   ├── index.html
 │   ├── style.css
@@ -9,5 +6,5 @@ color-quest/
 ├── server/
 │   ├── server.js
 │   └── package.json
+├── .nojekyll       ← Обязательный файл
 └── README.md
-```
